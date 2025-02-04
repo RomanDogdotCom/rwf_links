@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich Fesler - Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e0e0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #444;
+            background-color: #f0f0f0;
+            padding: 10px 0;
+            margin: 0;
+            border-bottom: 2px solid #ccc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #d6d6d6;
+            color: #333;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rich Fesler - Links</h1>
+    <table id="csvTable">
+        <thead>
+            <tr></tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('list.csv')
+                .then(response => response.text())
+                .then(csv => displayCSV(csv))
+                .catch(error => console.error('Error loading CSV:', error));
+        });
+
+        function displayCSV(csv) {
+            const rows = csv.split(/\r?\n/).filter(row => row.trim() !== '');
+            const tableHead = document.querySelector('#csvTable thead tr');
+            const tableBody = document.querySelector('#csvTable tbody');
+
+            tableHead.innerHTML = '';
+            tableBody.innerHTML = '';
+
+            if (rows.length > 0) {
+                const headers = rows[0].split(',').slice(0, 6);
+                headers.forEach((header) => {
+                    const th = document.createElement('th');
+                    th.textContent = header;
+                    tableHead.appendChild(th);
+                });
+
+                rows.slice(1).forEach(row => {
+                    const data = row.split(',').slice(0, 6);
+                    const tr = document.createElement('tr');
+                    data.forEach((cell, index) => {
+                        const td = document.createElement('td');
+                        if (index === 4) { // Assuming the 5th column contains links
+                            const link = document.createElement('a');
+                            link.href = cell.trim();
+                            link.textContent = cell.trim();
+                            link.target = '_blank';
+                            td.appendChild(link);
+                        } else {
+                            td.textContent = cell;
+                        }
+                        tr.appendChild(td);
+                    });
+                    tableBody.appendChild(tr);
+                });
+            }
+        }
+    </script>
+</body>
+</html>
