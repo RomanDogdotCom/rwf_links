@@ -1,0 +1,60 @@
+Category,Subcategory,Tool/Platform,Name,Link,Description
+3D Printing,Models,,Thingaverse,https://www.thingiverse.com/,Free 3D Models
+3D Printing,Models,,Printables,https://www.printables.com/,Free 3D Models
+Automation,General,,Node Red,https://nodered.org/,Web GUI Low-code programming for event-driven applications
+Bluetooth,Security,Hacking,BtleJack,https://github.com/virtualabs/btlejack,Bluetooth Low Energy Hacking Tool
+Embedded Systems,UI Design,Displays,Square Line,https://squareline.io/,Embedded UI Design Tool
+Embedded Systems,Firmware,ESP32,TasmoCompiler,https://github.com/benzino77/tasmocompiler,Tasmota Firmware Compiler
+Embedded Systems,Firmware,ESP32,Tasmota,https://tasmota.github.io/docs/,Tasmota Firmware
+Embedded Systems,Communication,ESP32,ESP-Now,https://www.espressif.com/en/solutions/low-power-solutions/esp-now,ESP-Now Communication Protocol
+Embedded Systems,Programming,ESP32,Annex32,https://cicciocb.com/,BASIC for ESP32
+Graphics,2D,AI,Scenario,https://app.scenario.com,AI-Powered Graphic Content Generation
+Graphics,3D,Modeling,Blender,https://www.blender.org/,3D Modeling Software
+Graphics,Game Development,Engines,Unity3D,https://unity.com/,Game Engine
+Hacking,Security,Decompilers,DeCompiler,https://www.decompiler.com/,Decompiler Tool
+Hacking,Security,Network Analysis,WireShark,https://www.wireshark.org/,Network Protocol Analyzer
+Hacking,Security,Network Tools,Web Wiz,https://network-tools.webwiz.net/,Network Tools
+Hacking,Security,WiFi,DeAuther,https://deauther.com/,WiFi Penetration Testing Tool
+Hacking,Security,WiFi,Pwnagotchi,https://pwnagotchi.ai/,AI for WiFi Penetration Testing
+Hacking,Security,WiFi,AirCrack,https://github.com/aircrack-ng/aircrack-ng,WiFi Security Assessment Tools
+Hacking,Information,Conferences,Defcon,https://www.youtube.com/@DEFCONConference/videos,the,DEF CON Videos
+IoT,Networking,LoRa,Rnode,https://liamcottle.github.io/rnode-flasher/,LoRa Mesh Networking Firmware
+IoT,Networking,LoRa,Meshtastic,https://flasher.meshtastic.org/,LoRa Mesh Networking Firmware
+Messaging,Protocols,Servers,Mosquitto,https://mosquitto.org/,MQTT Broker
+Operating System,General,Desktop,LocalSend,https://localsend.org/,Local File Transfer Utility
+Operating System,Linux,Desktop,Mint Linux,https://linuxmint.com/,Linux Distribution
+Operating System,Embedded,Raspberry Pi,Rasparian,https://www.raspberrypi.com/software/,Raspberry Pi OS
+Operating System,Windows,Desktop,Windows,https://www.microsoft.com/en-us/software-download,Windows OS
+Programming,CSS,Generators,Best Button,https://www.bestcssbuttongenerator.com/,CSS Button Generator
+Programming,Mobile Development,Android,App Inventor,https://appinventor.mit.edu/,Android App Development Tool
+Programming,Mobile Development,Android,Android Studio,https://developer.android.com/studio,Android App Development IDE
+Programming,Visual Programming,General,Blockly,https://developers.google.com/blockly,Visual Programming Editor
+Programming,IDEs,General,Visual Studio,https://visualstudio.microsoft.com/,IDE
+Programming,IDEs,General,VSC,,Visual Studio Code
+Programming,Version Control,Git,GitHub,https://github.com/,Git Repository Hosting
+Programming,Web Development,Fonts,Google Fonts,https://fonts.google.com/,Free Fonts
+Programming,Web Development,SVG,Google Font to SVG,https://danmarshall.github.io/google-font-to-svg-path/,Font to SVG Converter
+Programming,Web Development,SVG,Viewer,https://www.freecodeformat.com/svg-editor.php,SVG Editor/Viewer
+Programming,Web Development,SVG,Editor,https://yqnn.github.io/svg-path-editor/,SVG Path Editor
+Reference,Hardware,Datasheets,Data Books,https://www.rsp-italy.it/Electronics/Databooks/index.htm,Electronic Datasheets
+Software Defined Radio,Servers,General,SpyServer,https://skywavelinux.com/gqrx-spyserver-client.html,Network-based SDR Server
+System Administration,Microsoft,PowerShell,PDQ,https://www.pdq.com/,Windows Patch Management
+System Administration,Virtualization,x86,Vmware,https://www.vmware.com/,Virtualization Platform
+Tools,CAD,Mechanical,FreeCad,https://www.freecad.org/,CAD Software
+Tools,File Transfer,FTP,FileZilla,https://filezilla-project.org/,FTP Client
+Tools,Hardware,Serial Communication,Serial Terminal,https://www.serialterminal.com/,Browser-based Serial Terminal
+Tools,Hardware,Circuit Design,Circuit Lab,https://www.circuitlab.com/,Online Circuit Simulator
+Tools,Regular Expressions,Testing,Regex 101,https://regex101.com/,Regular Expression Tester
+Tools,Web Development,Sandboxes,Code Pen,https://codepen.io/trending,Web Development Sandbox
+Tools,AI,Image Generation,PixArt-Alpha,https://huggingface.co/spaces/PixArt-alpha/PixArt-alpha,Text-to-Image AI
+Tools,AI,Music Generation,MusicGen,https://huggingface.co/spaces/facebook/MusicGen,Text-to-Music AI
+Tools,PCB Design,Hardware,KiCad,https://www.kicad.org/,PCB Design Software
+Tools,Video Editing,General,Handbrake,https://handbrake.fr/,Video Converter
+Tracking,Aviation,Real-time,Aircraft,https://globe.adsbexchange.com/,ADS-B Aircraft Tracker
+Tracking,Space,Real-time,Orbital,https://satellitemap.space/,Satellite Tracker
+Tracking,Maritime,Real-time,Ships,https://www.marinetraffic.com/,Ship Tracker
+Vendors,Hardware,Lock Picking,Covert Instruments,https://covertinstruments.com/,Lock Picking Tools
+Vendors,Hardware,Electronics,Tindie,https://www.tindie.com/,Maker Marketplace
+Vendors,Hardware,Electronics,AdaFruit,https://www.adafruit.com/,Electronics Components
+Vendors,Hardware,Electronics,SparkFun,https://www.sparkfun.com/,Electronics Components
+Weather,Wind,Real-time,Windy,https://www.windy.com/,Wind Map
